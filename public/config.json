@@ -37,6 +37,13 @@
   ],
   "categorization": [
     {
+      "key": "experimental_group",
+      "label": "Experimental Group",
+      "rules": [],
+      "default": "Mouse Brain / Lung / MEFs",
+      "priorities": { "Mouse Brain / Lung / MEFs": 1 }
+    },
+    {
       "key": "comparison",
       "label": "Comparison",
       "rules": [
