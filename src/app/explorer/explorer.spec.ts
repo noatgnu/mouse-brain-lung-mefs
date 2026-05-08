@@ -48,8 +48,8 @@ describe('ExplorerComponent', () => {
   });
   it('should identify default flip projects correctly based on config patterns', () => {
     vi.spyOn(component, 'currentDatasetConfig').mockReturnValue({
-      id: 'at2org',
-      name: 'AT2org',
+      id: 'lysoip',
+      name: 'LysoIP',
       file: 'file.txt',
       idRow: 0,
       nameRow: 0,

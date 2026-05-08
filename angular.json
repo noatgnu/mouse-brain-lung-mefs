@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "at2org:build:production"
+              "buildTarget": "mouse-brain-lung-mefs:build:production"
             },
             "development": {
-              "buildTarget": "at2org:build:development"
+              "buildTarget": "mouse-brain-lung-mefs:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -35,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/at2org/browser
+          path: dist/mouse-brain-lung-mefs/browser
 
       - name: Deploy to GitHub Pages
         id: deployment

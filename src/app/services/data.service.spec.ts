@@ -12,8 +12,8 @@ col0\tcol1\tcol2\tcol3\tcol4\tcol5\t\t\t\t\t\t
 Q9Y6K1\tTP53\tcol2\tcol3\tcol4\tcol5\tval6\t1.5\tval8\tval9\t-0.8\tval11
 P04637\tBRCA1\tcol2\tcol3\tcol4\tcol5\tval6\t2.3\tval8\tval9\t1.2\tval11`;
   const mockDatasetConfig = {
-    id: 'at2org',
-    name: 'AT2org',
+    id: 'lysoip',
+    name: 'LysoIP',
     file: 'file.txt',
     idRow: 0,
     nameRow: 1,
