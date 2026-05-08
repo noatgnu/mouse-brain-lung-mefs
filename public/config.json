@@ -1,0 +1,73 @@
+{
+  "datasets": [
+    {
+      "id": "lysoip",
+      "name": "LysoIP",
+      "file": "20260508_Mouse_Brain-Lung-MEFs_LysoIP_12projects.txt",
+      "idRow": 0,
+      "nameRow": 0,
+      "dataStartRow": 2,
+      "experimentStartCol": 6,
+      "stride": 3,
+      "defaultGenes": [],
+      "defaultLog2fcCutoff": 0.58,
+      "defaultConfidenceCutoff": 1.3,
+      "defaultRankCutoff": 0,
+      "defaultFlipPatterns": [],
+      "labelIncrease": "Increased in mutant",
+      "labelDecrease": "Decreased in mutant"
+    },
+    {
+      "id": "wcl",
+      "name": "WCL",
+      "file": "20260508_Mouse_Brain-Lung-MEFs_WCL_12projects.txt",
+      "idRow": 0,
+      "nameRow": 0,
+      "dataStartRow": 2,
+      "experimentStartCol": 6,
+      "stride": 2,
+      "defaultGenes": [],
+      "defaultLog2fcCutoff": 0.58,
+      "defaultConfidenceCutoff": 1.3,
+      "defaultRankCutoff": 0,
+      "defaultFlipPatterns": [],
+      "labelIncrease": "Increased in mutant",
+      "labelDecrease": "Decreased in mutant"
+    }
+  ],
+  "categorization": [
+    {
+      "key": "comparison",
+      "label": "Comparison",
+      "rules": [
+        { "pattern": "VPS35DN_MLi2", "value": "VPS35DN+MLi2" },
+        { "pattern": "VPS35.*DN", "value": "VPS35 DN" },
+        { "pattern": "LRRK2-RC", "value": "LRRK2 RC" },
+        { "pattern": "LRRK2-KO", "value": "LRRK2 KO" }
+      ],
+      "default": "Other",
+      "priorities": { "VPS35 DN": 1, "VPS35DN+MLi2": 2, "LRRK2 RC": 3, "LRRK2 KO": 4 }
+    },
+    {
+      "key": "tissue",
+      "label": "Tissue",
+      "rules": [
+        { "pattern": "MouseBrain", "value": "Brain" },
+        { "pattern": "MouseLung", "value": "Lung" },
+        { "pattern": "MEFs", "value": "MEFs" }
+      ],
+      "default": "Other",
+      "priorities": { "Brain": 1, "Lung": 2, "MEFs": 3 }
+    },
+    {
+      "key": "instrument",
+      "label": "Instrument",
+      "rules": [
+        { "pattern": "Astral", "value": "Astral" },
+        { "pattern": "-480", "value": "480" }
+      ],
+      "default": "480",
+      "priorities": { "480": 1, "Astral": 2 }
+    }
+  ]
+}
