@@ -13,7 +13,7 @@
       "defaultLog2fcCutoff": 0.58,
       "defaultConfidenceCutoff": 1.3,
       "defaultRankCutoff": 0,
-      "defaultFlipPatterns": ["Project 5 (", "Project 11 ("],
+      "defaultFlipPatterns": [],
       "labelIncrease": "Increased in mutant",
       "labelDecrease": "Decreased in mutant"
     },
@@ -30,7 +30,7 @@
       "defaultLog2fcCutoff": 0.58,
       "defaultConfidenceCutoff": 1.3,
       "defaultRankCutoff": 0,
-      "defaultFlipPatterns": ["Project 5 (", "Project 11 ("],
+      "defaultFlipPatterns": [],
       "labelIncrease": "Increased in mutant",
       "labelDecrease": "Decreased in mutant"
     }
